@@ -6,7 +6,7 @@
 3. Authentication > Users > Add user: your admin email + a strong password (tick "Auto confirm").
 4. Authentication > Providers > Email: turn OFF "Allow new users to sign up" (only you can create accounts).
 5. SQL Editor, run (with your email) to make yourself the admin:
-   `insert into admins(user_id) select id from auth.users where email='you@example.com';`
+   `insert into admins(user_id) select id from auth.users where email='you@example.com';` 
 6. Settings > API: copy Project URL and anon public key.
 
 ## 2. Run locally
